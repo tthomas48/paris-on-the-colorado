@@ -1,0 +1,6 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Austin: Paris on the Colorado'
+theme = 'beautifulhugo'
+# sectionPagesMenu = 'main'
+showChildrenInMenu = 'true'
