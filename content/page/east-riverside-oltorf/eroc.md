@@ -22,6 +22,13 @@ East Riverside/Oltorf is one of the densest and most populous neighborhoods in A
 ## Coming soon
 * Completion of the [Country Club Creek Trail]({{<ref "ccctrail">}}) between Oltorf and East Riverside with an underpass under Riverside.
 
+## Questions
+* How do we connect East/West to the spur?
+* How do we better cross Oltorf and Riverside?
+* How do we get better protected facilities?
+* How do we start taking lanes?
+* How do we start closing neighborhood streets to only local automotive traffic?
+
 ### Next Steps
 * With the current plan for IH-35 Woodland will no longer go under the freeway and there will only be a pedestrian and bike connection. This will drastically reduce automobile traffic on Woodland and creates a situation for Woodland to become the primary bicycle East/West connection to the Country Club Creek Trail. Although it will need to somehow connect with the Country Club Creek Trail. 
 
