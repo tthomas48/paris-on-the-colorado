@@ -29,9 +29,9 @@ jobs:
           sudo mv hugo /usr/local/bin          
       - name: Build
         run: |
-          hugo      
-      - id: 'upload-file'
-        uses: 'google-github-actions/upload-cloud-storage@v1'
-        with:
-          path: 'public/'
-          destination: 'paris-on-the-colorado-website'
+          hugo deploy
+      # - id: 'upload-file'
+      #   uses: 'google-github-actions/upload-cloud-storage@v1'
+      #   with:
+      #     path: 'public/'
+      #     destination: 'paris-on-the-colorado-website'
