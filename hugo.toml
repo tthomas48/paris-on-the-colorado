@@ -4,3 +4,11 @@ title = 'Austin: Paris on the Colorado'
 theme = 'beautifulhugo'
 # sectionPagesMenu = 'main'
 showChildrenInMenu = 'true'
+
+[deployment]
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "gcs"
+
+# Google Cloud Storage -- see https://gocloud.dev/howto/blob/#gcs
+URL = "gs://paris-on-the-colorado-website"

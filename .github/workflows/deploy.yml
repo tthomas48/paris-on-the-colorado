@@ -1,0 +1,20 @@
+name: deploy
+on:
+  push:
+    branches:
+      - main
+steps:
+  - id: 'auth'
+    name: 'Authenticate to Google Cloud'
+    uses: 'google-github-actions/auth@v0.4.0'
+    with:
+      workload_identity_provider: 'projects/402989493994/locations/global/workloadIdentityPools/hugo-deploy-pool/attribute.repository/tthomas48/paris-on-the-colorado'
+      service_account: 'hugo-deploy@paris-on-the-colorado.iam.gserviceaccount.com'
+  - name: Deploy hugo to GCS
+    uses: fchyla/deploy-hugo-to-gcs@v1.5.1
+    with:
+      deployment-target: gcs 
+      deployment-environment: production
+      gcp-project-id: paris-on-the-colorado
+      gcp-service-account-key: 'hugo-deploy@paris-on-the-colorado.iam.gserviceaccount.com'
+      gcp-create-credentials: false
