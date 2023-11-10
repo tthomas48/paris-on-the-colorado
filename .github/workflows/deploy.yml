@@ -29,7 +29,8 @@ jobs:
           sudo mv hugo /usr/local/bin          
       - name: Build
         run: |
-          hugo deploy
+          hugo
+          hugo deploy --target=gcs
       # - id: 'upload-file'
       #   uses: 'google-github-actions/upload-cloud-storage@v1'
       #   with:
