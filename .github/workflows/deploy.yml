@@ -29,5 +29,6 @@ jobs:
           sudo mv hugo /usr/local/bin          
       - name: Build
         run: |
-          hugo
-          hugo deploy --target=gcs
+          glcoud auth login
+          hugo --minify --environment=production
+          hugo deploy --target=gcs --environment=production
