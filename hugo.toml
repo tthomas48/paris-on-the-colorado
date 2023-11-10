@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://paris-on-the-colorado.xeric.me'
 languageCode = 'en-us'
 title = 'Austin: Paris on the Colorado'
 theme = 'beautifulhugo'
