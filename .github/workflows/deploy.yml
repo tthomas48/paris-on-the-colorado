@@ -17,7 +17,6 @@ jobs:
         uses: 'google-github-actions/auth@v0.4.0'
         with:
           token_format: 'access_token'
-          audience: '//iam.googleapis.com/projects/402989493994/locations/global/workloadIdentityPools/hugo-deploy-pool'
           workload_identity_provider: 'projects/402989493994/locations/global/workloadIdentityPools/hugo-deploy-pool'
           service_account: 'hugo-deploy@paris-on-the-colorado.iam.gserviceaccount.com'
       - name: Deploy hugo to GCS
